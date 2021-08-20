@@ -9,7 +9,7 @@ jobs:
   Portfolio_Changes:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository code.
+      - name: 📁 Check out repository code.
         uses: actions/checkout@v2
 
       - name: 🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}.
@@ -25,5 +25,13 @@ jobs:
       - name: 🕛 Checking the time of this Action.
         run: date
 
-      # - name: Update README.md
-      #   run: python Update.py
+      - name: 🛒 Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install colorama
+          pip install requests
+          pip install pytz
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Update README.md
+        run: python Update.py
