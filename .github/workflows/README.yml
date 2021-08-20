@@ -15,7 +15,7 @@ jobs:
       python-version: [3.8]
 
   step:
-    - name: 📁 Checkout Repo
+    - name: 📁 Checkout Repository
       uses: actions/checkout@v2
 
     - name: 🛠 Set up Python ${{ matrix.python-version }}
