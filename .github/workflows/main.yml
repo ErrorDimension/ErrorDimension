@@ -25,13 +25,11 @@ jobs:
       - name: 🕛 Checking the time of this Action.
         run: date
 
-      - name: 🛒 Install dependencies
+      - name: Update README.md
         run: |
           python -m pip install --upgrade pip
           pip install colorama
           pip install requests
           pip install pytz
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-
-      - name: Update README.md
-        run: python Update.py
+          python Update.py
