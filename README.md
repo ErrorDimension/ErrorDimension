@@ -1,8 +1,7 @@
 <div align = "center">
 
 
-<h2> Greetings, mates! I am ErrorDIM 👋 </h2>
-
+## Greetings, mates, I am ErrorDIM - aka [10errordim](https://github.com/10errordim) 👋
 
 </div>
 <hr>
