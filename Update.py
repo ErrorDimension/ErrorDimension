@@ -7,24 +7,28 @@ import lib
 import logging
 import colorama
 from colorama import Fore
+
 colorama.init()
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 
-logger("OKAY", "Imported: colorama")
-logger("OKAY", "Imported: datetime.datetime")
-logger("OKAY", "Imported: pytz")
-logger("OKAY", "Imported: time.perf_counter")
-logger("OKAY", "Imported: requests")
-logger("OKAY", "Imported: json")
+print("OKAY", "Imported: colorama")
+print("OKAY", "Imported: datetime.datetime")
+print("OKAY", "Imported: pytz")
+print("OKAY", "Imported: time.perf_counter")
+print("OKAY", "Imported: requests")
+print("OKAY", "Imported: json")
+
 
 def logStatus(text, status, overWrite=False):
-    statusText = [f"{Fore.RED}✗ ERRR",
-                  f"{Fore.YELLOW}● WAIT", f"{Fore.GREEN}✓ OKAY"]
+    statusText = [f"{Fore.RED}✗ ERRR", f"{Fore.YELLOW}● WAIT", f"{Fore.GREEN}✓ OKAY"]
     logStatus = ["ERRR", "INFO", "OKAY"]
-    logger(logStatus[status + 1], "{:48}{}{}".format(text,
-                                                  statusText[status + 1], Fore.RESET), resetCursor=(not overWrite))
+    logger(
+        logStatus[status + 1],
+        "{:48}{}{}".format(text, statusText[status + 1], Fore.RESET),
+        resetCursor=(not overWrite),
+    )
 
 
 USER_DATA = None
