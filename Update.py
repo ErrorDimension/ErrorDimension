@@ -6,15 +6,17 @@ from time import perf_counter, time
 import lib
 import colorama
 from colorama import Fore
+from lib import ehook
+from lib.log import log
 
 colorama.init()
 
-print("OKAY", "Imported: colorama")
-print("OKAY", "Imported: datetime.datetime")
-print("OKAY", "Imported: pytz")
-print("OKAY", "Imported: time.perf_counter")
-print("OKAY", "Imported: requests")
-print("OKAY", "Imported: json")
+log("OKAY", "Imported: colorama")
+log("OKAY", "Imported: datetime.datetime")
+log("OKAY", "Imported: pytz")
+log("OKAY", "Imported: time.perf_counter")
+log("OKAY", "Imported: requests")
+log("OKAY", "Imported: json")
 
 
 def logStatus(text, status, overWrite=False):
@@ -22,10 +24,9 @@ def logStatus(text, status, overWrite=False):
         f"{Fore.RED}✗ ERRR", f"{Fore.YELLOW}● WAIT", f"{Fore.GREEN}✓ OKAY"
     ]
     logStatus = ["ERRR", "INFO", "OKAY"]
-    print(
-        logStatus[status + 1],
+    log(logStatus[status + 1],
         "{:48}{}{}".format(text, statusText[status + 1], Fore.RESET),
-    )
+        resetCursor=(not overWrite))
 
 
 USER_DATA = None
@@ -95,6 +96,7 @@ def repoLists():
 def runTime():
     return "{:.4f}".format(perf_counter() - TIME_START)
 
+
 ##? ============= MAIN CODE =============
 
 PLACEHOLDERS = {
@@ -106,7 +108,7 @@ PLACEHOLDERS = {
     "RUNTIME": runTime
 }
 
-print("INFO", "Generating README file")
+log("INFO", "Generating README file")
 logStatus("Opening Template File", 0)
 with open("Readme_Template.md", "r", encoding="utf8") as templateFile:
     template = templateFile.read()
