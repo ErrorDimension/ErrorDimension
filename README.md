@@ -15,9 +15,9 @@
 
 <h3>🥇 Top Starred Repositories:</h3>
 
-|#|Name|Stars|Size|Major Language|Last Update|Issues and Forks|
-|-|:--:|:---:|:--:|:------------:|:---------:|:--------------:|
-| |    |     |    |              |           |                |
+|#  |Name|Stars|Size|Major Language|Last Update|Issues and Forks|
+|:-:|:--:|:---:|:--:|:------------:|:---------:|:--------------:|
+|   |    |     |    |              |           |                |
 
 <hr>
 
