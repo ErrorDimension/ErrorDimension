@@ -1,6 +1,9 @@
 name: GitHub Actions Demo
 
-on: [push, schedule: "20,50 * * * *"]
+on:
+  push:
+  schedule:
+    -cron: "30,50 * * * *"
 
 jobs:
   Explore-GitHub-Actions:
