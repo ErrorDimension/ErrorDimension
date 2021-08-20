@@ -81,7 +81,7 @@ def repoLists():
                         reverse=True)
     counter = 0
 
-    html = """\n|#|Name|Star|Size|Language|Last Update|Issues and Forks|\n|:-:|:---:|:---:|:---:|:---:|:---:|:--:|\n"""
+    html = """\n|#|Name|Stars|Size|Major Language|Last Update|Issues and Forks|\n|:-:|:---:|:---:|:---:|:---:|:---:|:--:|\n"""
 
     for item in sortedList:
         counter += 1
