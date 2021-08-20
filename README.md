@@ -15,9 +15,13 @@
 
 <h3>🥇 Top Starred Repositories:</h3>
 
-|#  |Name|Stars|Size|Major Language|Last Update|Issues and Forks|
-|:-:|:--:|:---:|:--:|:------------:|:---------:|:--------------:|
-|   |    |     |    |              |           |                |
+
+|#|Name|Star|Size|Language|Last Update|Issues and Forks|
+|---|---|---:|---:|:---:|---|--|
+|1|**[10errordim](https://github.com/10errordim/10errordim)**|2 ⭐|187.17 MB|Python|2021-08-20T15:36:18Z|0 ⚠  \|  0 🍴|
+|2|**[belivipro9x99](https://github.com/10errordim/belivipro9x99)**|0 ⭐|7.98 MB|None|2021-08-20T10:05:45Z|0 ⚠  \|  0 🍴|
+|3|**[emoji-cheat-sheet](https://github.com/10errordim/emoji-cheat-sheet)**|0 ⭐|31.23 MB|None|2021-08-20T07:47:40Z|0 ⚠  \|  0 🍴|
+
 
 <hr>
 
@@ -31,3 +35,11 @@
   - Instagram:  **[ErrorDIM]()**
 - ⚡ Fun fact: 
   <br> ErrorDIM actually stands for ErrorDimension, which was due to how good I was in gaming. It's not a very good name nor nick name. <br> However, I once accidentally said that if I ever be famous, it's definitely this name, so ... 😇😅
+
+<hr>
+
+<span style="clear: both">
+	<span align="left">⏰ <b>UPDATED:</b> 20/08/2021 10:36:42 PM (GMT+7)</span>
+	<span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</span>
+	<span align="right">⚗ <b>GENERATED:</b> 0.1854s /w <a href="https://github.com/belivipro9x99/belivipro9x99/actions" target="_blank">Github Actions</a></span>
+</span>
