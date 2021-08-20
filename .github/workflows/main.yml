@@ -3,7 +3,7 @@ name: GitHub Actions Demo
 on:
   push:
   schedule:
-    -cron: "30,50 * * * *"
+    -cron: "30/25 * * * *"
 
 jobs:
   Explore-GitHub-Actions:
