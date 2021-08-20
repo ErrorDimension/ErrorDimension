@@ -2,6 +2,7 @@ name: Portfolio Changes
 
 on:
   push:
+  workflow_dispatch:
   schedule:
     - cron: "30,55 * * * *"
 
