@@ -13,6 +13,7 @@
 # dist/
 # downloads/
 # eggs/
+*.yml
 # .eggs/
 # lib/
 # lib64/
@@ -102,7 +103,6 @@
 # *.sage.py
 
 # # Environments
-.github/
 # .env
 # .venv
 # env/
