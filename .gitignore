@@ -13,7 +13,6 @@
 # dist/
 # downloads/
 # eggs/
-*.yml
 # .eggs/
 # lib/
 # lib64/
