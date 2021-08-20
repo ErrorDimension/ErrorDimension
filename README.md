@@ -16,9 +16,9 @@
 <h3>🥇 Top Starred Repositories:</h3>
 
 
-|#|Name|Star|Size|Language|Last Update|Issues and Forks|
+|#|Name|Stars|Size|Major Language|Last Update|Issues and Forks|
 |:-:|:---:|:---:|:---:|:---:|:---:|:--:|
-|1|**[10errordim](https://github.com/10errordim/10errordim)**|2 ⭐|187.19 MB|Python|2021-08-20T15:56:53Z|0 ⚠  \|  0 🍴|
+|1|**[10errordim](https://github.com/10errordim/10errordim)**|2 ⭐|187.19 MB|Python|2021-08-20T16:02:47Z|0 ⚠  \|  0 🍴|
 
 
 <hr>
@@ -37,7 +37,7 @@
 <hr>
 
 <span style="clear: both">
-	<span align="left">⏰ <b>UPDATED:</b> 20/08/2021 10:59:46 PM (GMT+7)</span>
+	<span align="left">⏰ <b>UPDATED:</b> 20/08/2021 11:03:06 PM (GMT+7)</span>
 	<span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</span>
-	<span align="right">⚗ <b>GENERATED:</b> 0.1638s /w <a href="https://github.com/10errordim/10errordim/actions" target="_blank">Github Actions</a></span>
+	<span align="right">⚗ <b>GENERATED:</b> 0.0962s /w <a href="https://github.com/10errordim/10errordim/actions" target="_blank">Github Actions</a></span>
 </span>
