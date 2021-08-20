@@ -1,29 +1,29 @@
 name: Update README.md continuously
 
 on:
-	push:
-	workflows_dispatch:
-	schedule:
-		- cron: "15/20 * * * *"
+  push:
+  workflows_dispatch:
+  schedule:
+    - cron: "15/20 * * * *"
 
 jobs:
-	build:
-		runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
 
-	strategy:
-		matrix:
-			python-version: [3.8]
+  strategy:
+    matrix:
+      python-version: [3.8]
 
-	step:
-		- name: 📁 Checkout Repo
+  step:
+    - name: 📁 Checkout Repo
       uses: actions/checkout@v2
 
-		- name: 🛠 Set up Python ${{ matrix.python-version }}
+    - name: 🛠 Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v2
-		  with:
-			  python-version: ${{ matrix.python-version }}
+      with:
+        python-version: ${{ matrix.python-version }}
 
-		- name: 🛒 Install dependencies
+    - name: 🛒 Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install colorama
@@ -31,10 +31,10 @@ jobs:
         pip install pytz
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-		- name: 🏗 Build README
+    - name: 🏗 Build README
       run: python update.py
 
-		- name: ⛳ Commit Update
+    - name: ⛳ Commit Update
       run: |-
         cp -f README.md /tmp/README.md
         cp -f README_TEMPLATE.md /tmp/README_TEMPLATE.md
