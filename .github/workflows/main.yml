@@ -9,14 +9,11 @@ jobs:
   Portfolio_Changes:
     runs-on: ubuntu-latest
     steps:
-      - name: readme2tex-action
-        uses: montali/readme2tex-action@1.1
+      - name: Check out repository code.
+        uses: actions/checkout@v2
 
       - name: 🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}.
         run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
-
-      - name: Check out repository code.
-        uses: actions/checkout@v2
 
       - name: 🔎 List files in the repository.
         run: |
