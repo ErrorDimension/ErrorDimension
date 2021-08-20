@@ -57,7 +57,7 @@ jobs:
           mv -f /tmp/.github .github
           git add .
           git diff
-          git config --global user.email "mrxiaolin2005@gmail.com"
-          git config --global user.name "ErrorDIM Bot"
+          git config --global user.email "ioerrordim@gmail.com"
+          git config --global user.name "ErrorDIM Representative"
           git commit -m "[Portfolio Build $GITHUB_RUN_NUMBER] 🔮 README.md: Update README" -m "Commit $GITHUB_SHA by $GITHUB_ACTOR" -m "Ref: $GITHUB_REF"
           git push
