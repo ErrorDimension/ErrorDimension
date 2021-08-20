@@ -15,9 +15,7 @@
 
 <h3>🥇 Top Starred Repositories:</h3>
 
-|#  |Name|Stars|Size|Major Language|Last Update|Issues and Forks|
-|:-:|:--:|:---:|:--:|:------------:|:---------:|:--------------:|
-|   |    |     |    |              |           |                |
+{{REPOLISTS}}
 
 <hr>
 
@@ -32,3 +30,10 @@
 - ⚡ Fun fact: 
   <br> ErrorDIM actually stands for ErrorDimension, which was due to how good I was in gaming. It's not a very good name nor nick name. <br> However, I once accidentally said that if I ever be famous, it's definitely this name, so ... 😇😅
 
+<hr>
+
+<span style="clear: both">
+	<span align="left">⏰ <b>UPDATED:</b> {{TIME}}</span>
+	<span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</span>
+	<span align="right">⚗ <b>GENERATED:</b> {{RUNTIME}}s /w <a href="https://github.com/belivipro9x99/belivipro9x99/actions" target="_blank">Github Actions</a></span>
+</span>
