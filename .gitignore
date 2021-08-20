@@ -102,6 +102,7 @@
 # *.sage.py
 
 # # Environments
+.github
 # .env
 # .venv
 # env/
