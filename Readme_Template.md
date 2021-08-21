@@ -33,8 +33,8 @@ ${REPOLISTS}
 - 👨‍🎓 I am currently a student, in Grade 11.
 - 🔭 I’m currently working on multi-purposed website.
 - 💖 Hobbies:
-	- 📺 I like anime <img style="margin: 0 2px" width="78" src="assets/Drawing/My Waifu.jpg" title="C++">
-	- 🖌️ I also like to draw <img style="margin: 0 2px" width="78" src="assets/Drawing/Stickman.png" title="C++">
+	- 📺 I like anime <img style="margin: 0 2px" width="156" src="assets/Drawing/My Waifu.jpg" title="Tennoji Rinna">
+	- 🖌️ I also like to draw <img style="margin: 0 2px" width="130" src="assets/Drawing/Stickman.png" title="instagram.com/nhvuu_05">
 - ⚡ Fun fact: 
   <br> ErrorDIM actually stands for ErrorDimension, which was due to how good I was in gaming. It's not a very good name nor nick name. <br> However, I once accidentally said that if I ever be famous, it's definitely this name, so ... 😇😅
 * 📫 How to reach me:
