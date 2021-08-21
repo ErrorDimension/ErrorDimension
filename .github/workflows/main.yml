@@ -55,7 +55,7 @@ jobs:
           # mv -f /tmp/assets assets
           # mv -f /tmp/lib lib
           # mv -f /tmp/.github .github
-          git add *
+          git add .
           git diff
           git config --global user.email "ioerrordim@gmail.com"
           git config --global user.name "ErrorDIM Representative"
