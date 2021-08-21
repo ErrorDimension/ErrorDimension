@@ -48,7 +48,7 @@ try:
     REPOS_DATA = requests.get(
         "https://api.github.com/users/10errordim/repos").json()
 except json.JSONDecodeError:
-    print("Parse Repos Data Failed: Malformed JSON Data", -1, True)
+    logStatus("Parse Repos Data Failed: Malformed JSON Data", -1, True)
 
 logStatus("Fetching Repository Data", 1, True)
 
@@ -81,11 +81,11 @@ def repoLists():
                         reverse=True)
     counter = 0
 
-    html = """\n|#|Name|Stars|Size|Major Language|Last Update|Issues and Forks|\n|:-:|:---:|:---:|:---:|:---:|:---:|:--:|\n"""
+    html = "\n|#|Name|Stars|Size|Major Language|Last Update|Issues and Forks|\n|:-:|:---:|:---:|:---:|:---:|:---:|:--:|\n"
 
     for item in sortedList:
         counter += 1
-        html += f"""|{counter}|**[{item['name']}]({item['html_url']})**|{item['stargazers_count']} ⭐|{round(item['size'] / 1024, 2)} MB|{item['language']}|{item['updated_at']}|{item['open_issues']} ⚠  \|  {item['forks_count']} 🍴|\n"""
+        html += f"|{counter}|**[{item['name']}]({item['html_url']})**|{item['stargazers_count']} ⭐|{round(item['size'] / 1024, 2)} MB|{item['language']}|{item['updated_at']}|{item['open_issues']} ⚠  \|  {item['forks_count']} 🍴|\n"
 
         if (counter >= 3):
             break
@@ -117,7 +117,7 @@ with open("Readme_Template.md", "r", encoding="utf8") as templateFile:
     for key in PLACEHOLDERS:
         logStatus(f"Processing Placeholder: {key}", 0)
         value = PLACEHOLDERS[key]()
-        template = template.replace("{{" + key + "}}", str(value))
+        template = template.replace("${" + key + "}", str(value))
         logStatus(f"Processing Placeholder: {key}", 1, True)
 
     logStatus("Writing README File", 0)

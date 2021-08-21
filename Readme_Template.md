@@ -15,7 +15,7 @@
 
 <h3>🥇 Top Starred Repositories:</h3>
 
-{{REPOLISTS}}
+${REPOLISTS}
 
 <hr>
 
@@ -47,7 +47,7 @@ Just kidding, that was just some <kbd>Ctrl</kbd> + <kbd>C</kbd> then <kbd>Ctrl</
 <hr>
 
 <span style="clear: both">
-	<span align="left">⏰ <b>UPDATED:</b> {{TIME}}</span>
+	<span align="left">⏰ <b>UPDATED:</b> ${TIME}</span>
 	<span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</span>
-	<span align="right">⚗ <b>GENERATED:</b> {{RUNTIME}}s /w <a href="https://github.com/10errordim/10errordim/actions" target="_blank">Github Actions</a></span>
+	<span align="right">⚗ <b>GENERATED:</b> ${RUNTIME}s with <a href="https://github.com/10errordim/10errordim/actions" target="_blank">Github Actions</a></span>
 </span>
