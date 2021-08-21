@@ -32,12 +32,15 @@ ${REPOLISTS}
 
 - 👨‍🎓 I am currently a student, in Grade 11.
 - 🔭 I’m currently working on multi-purposed website.
-* 📫 How to reach me:
-  - Gmail: **[ErrorDIM]()**
-  - Facebook:  **[ErrorDIM](facebook.com/errordim)**
-  - Instagram:  **[ErrorDIM]()**
+- 💖 Hobbies:
+	- 📺 I like anime <img style="margin: 0 2px" width="78" src="assets/Drawing/My Waifu.jpg" title="C++">
+	- 🖌️ I also like to draw <img style="margin: 0 2px" width="78" src="assets/Drawing/Stickman.png" title="C++">
 - ⚡ Fun fact: 
   <br> ErrorDIM actually stands for ErrorDimension, which was due to how good I was in gaming. It's not a very good name nor nick name. <br> However, I once accidentally said that if I ever be famous, it's definitely this name, so ... 😇😅
+* 📫 How to reach me:
+  - Gmail: **[ErrorDIM](mrxiaolin2005@gmail.com)**
+  - Facebook:  **[ErrorDIM](facebook.com/errordim)**
+  - Instagram:  **[ErrorDIM]()**
 - 🦴 Bonus:
 <br>
 <p>
