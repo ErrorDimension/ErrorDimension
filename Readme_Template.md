@@ -3,6 +3,15 @@
 
 ## Greetings, mates, I am ErrorDIM - aka [10errordim](https://github.com/10errordim) 👋
 
+<img src="https://img.shields.io/badge/${STARS}-STARS-8cecff?style=for-the-badge">
+
+<img src="https://img.shields.io/badge/${REPOS}-REPOS-f2e174?style=for-the-badge">
+
+<img src="https://img.shields.io/badge/${FOLLOWERS}-FOLLOWERS-ff9eb6?style=for-the-badge">
+
+<img src="https://estruyf-github.azurewebsites.net/api/VisitorHit?user=10errordim&repo=10errordim&countColor=#0ffc03">
+
+<hr>
 </div>
 
 <h4>🧬 Programming Languages I Can Use:</h4>
