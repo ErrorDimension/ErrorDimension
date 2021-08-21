@@ -5,7 +5,7 @@
 
 <img src="https://img.shields.io/badge/2-STARS-8cecff?style=for-the-badge">
 
-<img src="https://img.shields.io/badge/1-REPOS-f2e174?style=for-the-badge">
+<img src="https://img.shields.io/badge/3-REPOS-f2e174?style=for-the-badge">
 
 <img src="https://img.shields.io/badge/1-FOLLOWERS-ff9eb6?style=for-the-badge">
 
@@ -27,7 +27,9 @@
 
 |#|Name|Stars|Size|Major Language|Last Update|Issues and Forks|
 |:-:|:---:|:---:|:---:|:---:|:---:|:--:|
-|1|**[10errordim](https://github.com/10errordim/10errordim)**|2 ⭐|187.19 MB|Python|2021-08-21T07:40:11Z|0 ⚠  \|  0 🍴|
+|1|**[10errordim](https://github.com/10errordim/10errordim)**|2 ⭐|187.19 MB|Python|2021-08-21T07:41:38Z|0 ⚠  \|  0 🍴|
+|2|**[awesome-github-profile-readme](https://github.com/10errordim/awesome-github-profile-readme)**|0 ⭐|12.35 MB|None|2021-08-21T07:46:55Z|0 ⚠  \|  0 🍴|
+|3|**[themis-web-interface](https://github.com/10errordim/themis-web-interface)**|0 ⭐|25.89 MB|None|2021-08-21T07:48:48Z|0 ⚠  \|  0 🍴|
 
 
 <hr>
@@ -60,7 +62,7 @@ Just kidding, that was just some <kbd>Ctrl</kbd> + <kbd>C</kbd> then <kbd>Ctrl</
 <hr>
 
 <span style="clear: both">
-	<span align="left">⏰ <b>UPDATED:</b> 21/08/2021 02:41:34 PM (GMT+7)</span>
+	<span align="left">⏰ <b>UPDATED:</b> 21/08/2021 03:01:37 PM (GMT+7)</span>
 	<span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</span>
-	<span align="right">⚗ <b>GENERATED:</b> 0.0923s with <a href="https://github.com/10errordim/10errordim/actions" target="_blank">Github Actions</a></span>
+	<span align="right">⚗ <b>GENERATED:</b> 0.2052s with <a href="https://github.com/10errordim/10errordim/actions" target="_blank">Github Actions</a></span>
 </span>
