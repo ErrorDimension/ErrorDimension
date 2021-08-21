@@ -4,7 +4,7 @@
 ## Greetings, mates, I am ErrorDIM - aka [10errordim](https://github.com/10errordim) 👋
 
 </div>
-<hr>
+
 <h4>🧬 Programming Languages I Can Use:</h4>
 <span>
 	<img style="margin: 0 2px" width="78" src="assets/icons/js.png" title="JavaScript">
