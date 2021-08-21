@@ -29,6 +29,20 @@
   - Instagram:  **[ErrorDIM]()**
 - ⚡ Fun fact: 
   <br> ErrorDIM actually stands for ErrorDimension, which was due to how good I was in gaming. It's not a very good name nor nick name. <br> However, I once accidentally said that if I ever be famous, it's definitely this name, so ... 😇😅
+- 🦴 Bonus:
+<br>
+<p>
+
+```js
+while (me->alive()) {
+	me->eat();
+	me->code();
+	me->sleep();
+}  
+```
+Just kidding, that was just some <kbd>Ctrl</kbd> + <kbd>C</kbd> then <kbd>Ctrl</kbd> + <kbd>V</kbd> shit. <br> It should be `while (me->health() == GOOD and me->awake())`
+
+</p>
 
 <hr>
 
