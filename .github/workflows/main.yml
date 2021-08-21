@@ -38,23 +38,23 @@ jobs:
 
       - name: ⛳ Commit Update
         run: |
-          # cp -f README.md /tmp/README.md
-          # cp -f Readme_Template.md /tmp/Readme_Template.md
-          # cp -f Update.py /tmp/Update.py
-          # mv -f assets /tmp/assets
-          # mv -f lib /tmp/lib
-          # mv -f .github /tmp/.github
+          cp -f README.md /tmp/README.md
+          cp -f Readme_Template.md /tmp/Readme_Template.md
+          cp -f Update.py /tmp/Update.py
+          mv -f assets /tmp/assets
+          mv -f lib /tmp/lib
+          mv -f .github /tmp/.github
           git fetch --all
           git checkout --progress --force -B Master refs/remotes/origin/Master
-          # mv -f /tmp/README.md README.md
-          # mv -f /tmp/Readme_Template.md Readme_Template.md
-          # mv -f /tmp/Update.py Update.py
-          # rm -rf assets
-          # rm -rf .github
-          # rm -rf lib
-          # mv -f /tmp/assets assets
-          # mv -f /tmp/lib lib
-          # mv -f /tmp/.github .github
+          mv -f /tmp/README.md README.md
+          mv -f /tmp/Readme_Template.md Readme_Template.md
+          mv -f /tmp/Update.py Update.py
+          rm -rf assets
+          rm -rf .github
+          rm -rf lib
+          mv -f /tmp/assets assets
+          mv -f /tmp/lib lib
+          mv -f /tmp/.github .github
           git add .
           git diff
           git config --global user.email "ioerrordim@gmail.com"
