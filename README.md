@@ -18,7 +18,7 @@
 
 |#|Name|Stars|Size|Major Language|Last Update|Issues and Forks|
 |:-:|:---:|:---:|:---:|:---:|:---:|:--:|
-|1|**[10errordim](https://github.com/10errordim/10errordim)**|2 ⭐|187.21 MB|Python|2021-08-21T02:46:10Z|0 ⚠  \|  0 🍴|
+|1|**[10errordim](https://github.com/10errordim/10errordim)**|2 ⭐|187.21 MB|Python|2021-08-21T03:17:56Z|0 ⚠  \|  0 🍴|
 
 
 <hr>
@@ -33,11 +33,25 @@
   - Instagram:  **[ErrorDIM]()**
 - ⚡ Fun fact: 
   <br> ErrorDIM actually stands for ErrorDimension, which was due to how good I was in gaming. It's not a very good name nor nick name. <br> However, I once accidentally said that if I ever be famous, it's definitely this name, so ... 😇😅
+- 🦴 Bonus:
+<br>
+<p>
+
+```js
+while (me->alive()) {
+	me->eat();
+	me->code();
+	me->sleep();
+}  
+```
+Just kidding, that was just some <kbd>Ctrl</kbd> + <kbd>C</kbd> then <kbd>Ctrl</kbd> + <kbd>V</kbd> shit. <br> It should be `while (me->health() == GOOD and me->awake())`
+
+</p>
 
 <hr>
 
 <span style="clear: both">
-	<span align="left">⏰ <b>UPDATED:</b> 21/08/2021 09:59:50 AM (GMT+7)</span>
+	<span align="left">⏰ <b>UPDATED:</b> 21/08/2021 10:18:17 AM (GMT+7)</span>
 	<span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</span>
-	<span align="right">⚗ <b>GENERATED:</b> 0.1814s /w <a href="https://github.com/10errordim/10errordim/actions" target="_blank">Github Actions</a></span>
+	<span align="right">⚗ <b>GENERATED:</b> 0.1698s /w <a href="https://github.com/10errordim/10errordim/actions" target="_blank">Github Actions</a></span>
 </span>
