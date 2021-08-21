@@ -38,14 +38,17 @@ jobs:
 
       - name: ⛳ Commit Update
         run: |
+          #^ Move all into tmp directory.
           cp -f README.md /tmp/README.md
           cp -f Readme_Template.md /tmp/Readme_Template.md
           cp -f Update.py /tmp/Update.py
           mv -f assets /tmp/assets
           mv -f lib /tmp/lib
           mv -f .github /tmp/.github
+          #& Check if any action is on progress, until not, move on.
           git fetch --all
           git checkout --progress --force -B Master refs/remotes/origin/Master
+          #* Move things back.
           mv -f /tmp/README.md README.md
           mv -f /tmp/Readme_Template.md Readme_Template.md
           mv -f /tmp/Update.py Update.py
@@ -55,6 +58,7 @@ jobs:
           mv -f /tmp/assets assets
           mv -f /tmp/lib lib
           mv -f /tmp/.github .github
+          #? Commit and push.
           git add .
           git diff
           git config --global user.email "ioerrordim@gmail.com"
