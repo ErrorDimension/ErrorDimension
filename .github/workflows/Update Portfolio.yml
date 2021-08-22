@@ -42,9 +42,9 @@ jobs:
       - name: ⛳ Commit Update
         run: |
           #^ Move all into tmp directory.
-          cp -f README.md /tmp/README.md
-          cp -f Readme_Template.md /tmp/Readme_Template.md
-          cp -f Update.py /tmp/Update.py
+          mv -f README.md /tmp/README.md
+          mv -f Readme_Template.md /tmp/Readme_Template.md
+          mv -f Update.py /tmp/Update.py
           mv -f assets /tmp/assets
           mv -f lib /tmp/lib
           mv -f .github /tmp/.github
@@ -55,14 +55,11 @@ jobs:
           mv -f /tmp/README.md README.md
           mv -f /tmp/Readme_Template.md Readme_Template.md
           mv -f /tmp/Update.py Update.py
-          rm -rf assets
-          rm -rf .github
-          rm -rf lib
           mv -f /tmp/assets assets
           mv -f /tmp/lib lib
           mv -f /tmp/.github .github
           #? Commit and push.
-          git add .
+          git add * -f
           git diff
           git config --global user.email "ioerrordim@gmail.com"
           git config --global user.name "ErrorDIM Representative"
