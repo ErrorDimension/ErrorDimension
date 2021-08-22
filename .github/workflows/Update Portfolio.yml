@@ -59,7 +59,7 @@ jobs:
           mv -f /tmp/lib lib
           mv -f /tmp/.github .github
           #? Commit and push.
-          git add * -f
+          git add .
           git diff
           git config --global user.email "ioerrordim@gmail.com"
           git config --global user.name "ErrorDIM Representative"
