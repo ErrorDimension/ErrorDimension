@@ -40,7 +40,7 @@ ${REPOLISTS}
 * 📫 How to reach me:
   - Gmail: **[ErrorDIM](mrxiaolin2005@gmail.com)**
   - Facebook:  **[ErrorDIM](facebook.com/errordim)**
-  - Instagram:  **[ErrorDIM]()**
+  - Instagram:  **[ErrorDIM](instagram.com/real.errordim)**
 - 🦴 Bonus:
 <br>
 <p>
