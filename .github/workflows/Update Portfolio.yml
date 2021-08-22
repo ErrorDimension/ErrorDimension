@@ -51,10 +51,15 @@ jobs:
           #& Check if any action is on progress, until not, move on.
           git fetch --all
           git checkout --progress --force -B Master refs/remotes/origin/Master
-          #* Move things back.
+          #* Move files back.
           mv -f /tmp/README.md README.md
           mv -f /tmp/Readme_Template.md Readme_Template.md
           mv -f /tmp/Update.py Update.py
+          #! Remove directory so they can move back
+          rm -rf assets
+          rm -rf lib
+          rm -rf .github
+          #! Move directory back
           mv -f /tmp/assets assets
           mv -f /tmp/lib lib
           mv -f /tmp/.github .github
