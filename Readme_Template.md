@@ -14,7 +14,7 @@
 
 </div>
 
-<h4>🧬 Programming Languages I Can Use:</h4>
+<h3>🧬 Programming Languages I Can Use:</h3>
 
 <span align="left">
 
@@ -32,7 +32,7 @@
 ${REPOLISTS}
 <hr>
 
-<h3> About me:</h3>
+<h3>🤡 About me:</h3>
 
 - 👨‍🎓 I am currently a student, in Grade 11.
 
