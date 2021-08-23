@@ -29,9 +29,7 @@
 <hr>
 
 <h3>🥇 Top Starred Repositories:</h3>
-
 ${REPOLISTS}
-
 <hr>
 
 <h3> About me:</h3>
