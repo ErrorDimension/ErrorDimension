@@ -14,7 +14,7 @@
 
 </div>
 
-<h4>🧬 Programming Languages I Can Use:</h4>
+<h3>🧬 Programming Languages I Can Use:</h3>
 
 <span align="left">
 
@@ -32,11 +32,11 @@
 
 |#|Name|Stars|Size|Major Language|Last Update|Issues and Forks|
 |:-:|:---:|:---:|:---:|:---:|:---:|:--:|
-|1|**[10errordim](https://github.com/10errordim/10errordim)**|3 ⭐|187.37 MB|Python|2021-08-23T05:11:11Z|0 ⚠  \|  0 🍴|
+|1|**[10errordim](https://github.com/10errordim/10errordim)**|3 ⭐|187.37 MB|Python|2021-08-23T05:16:24Z|0 ⚠  \|  0 🍴|
 
 <hr>
 
-<h3> About me:</h3>
+<h3>🤡 About me:</h3>
 
 - 👨‍🎓 I am currently a student, in Grade 11.
 
@@ -70,8 +70,8 @@ Just kidding, that was just some <kbd>Ctrl</kbd> + <kbd>C</kbd> then <kbd>Ctrl</
 
 <span style="clear: both">
 
-  <span align="left">⏰ <b>UPDATED:</b> 23/08/2021 12:11:32 PM (GMT+7)</span>
+  <span align="left">⏰ <b>UPDATED:</b> 23/08/2021 12:16:42 PM (GMT+7)</span>
   <span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</span>
-  <span align="right">⚗ <b>GENERATED:</b> 0.1654s with <a href="https://github.com/10errordim/10errordim/actions" target="_blank">Github Actions</a></span>
+  <span align="right">⚗ <b>GENERATED:</b> 0.1760s with <a href="https://github.com/10errordim/10errordim/actions" target="_blank">Github Actions</a></span>
 
 </span>
