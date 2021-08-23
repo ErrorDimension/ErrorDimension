@@ -2,6 +2,7 @@
 logs/
 __pycache__/
 Draft/
+.markdownlint.json
 #
 # *.py[cod]
 # *$py.class
