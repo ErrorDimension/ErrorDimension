@@ -16,15 +16,12 @@ jobs:
       - name: 🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}.
         run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
 
+     - name: 🕛 Checking the time of this Action.
+        run: date
+
       - name: 🔎 List files in the repository.
         run: |
           ls ${{ github.workspace }}
-
-      - name: 🍏 This job's status is ${{ job.status }}.
-        run: echo "🍏 This job's status is ${{ job.status }}."
-
-      - name: 🕛 Checking the time of this Action.
-        run: date
 
       - name: 🏗 Build README.md
         run: |
@@ -70,3 +67,6 @@ jobs:
           git config --global user.name "ErrorDIM Representative"
           git commit -m "[Portfolio Build $GITHUB_RUN_NUMBER] 🔮 README.md: Update README" -m "Commit $GITHUB_SHA by $GITHUB_ACTOR" -m "Ref: $GITHUB_REF"
           git push
+
+      - name: 🍏 This job's status is ${{ job.status }}.
+        run: echo "🍏 This job's status is ${{ job.status }}."
