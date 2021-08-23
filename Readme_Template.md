@@ -16,7 +16,7 @@
 
 <h4>🧬 Programming Languages I Can Use:</h4>
 
-<span>
+<span align="left">
 
   <img style="margin: 0 2px" width="78" src="assets/icons/js.png" title="JavaScript">
 
