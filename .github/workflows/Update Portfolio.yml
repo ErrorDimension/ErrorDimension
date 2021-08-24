@@ -39,27 +39,27 @@ jobs:
       - name: ⛳ Commit Update
         run: |
           #^ Move all into tmp directory.
-          # mv -f README.md /tmp/README.md
-          # mv -f Readme_Template.md /tmp/Readme_Template.md
-          # mv -f Update.py /tmp/Update.py
-          # mv -f assets /tmp/assets
-          # mv -f lib /tmp/lib
-          # mv -f .github /tmp/.github
-          # #& Check if any action is on progress, until not, move on.
+          mv -f README.md /tmp/README.md
+          mv -f Readme_Template.md /tmp/Readme_Template.md
+          mv -f Update.py /tmp/Update.py
+          mv -f assets /tmp/assets
+          mv -f lib /tmp/lib
+          mv -f .github /tmp/.github
+          #& Check if any action is on progress, until not, move on.
           git fetch --all
           git checkout --progress --force -B Master refs/remotes/origin/Master
-          # #* Move files back.
-          # mv -f /tmp/README.md README.md
-          # mv -f /tmp/Readme_Template.md Readme_Template.md
-          # mv -f /tmp/Update.py Update.py
-          # #! Remove directory so they can move back
-          # rm -rf assets
-          # rm -rf lib
-          # rm -rf .github
-          # #! Move directory back
-          # mv -f /tmp/assets assets
-          # mv -f /tmp/lib lib
-          # mv -f /tmp/.github .github
+          #* Move files back.
+          mv -f /tmp/README.md README.md
+          mv -f /tmp/Readme_Template.md Readme_Template.md
+          mv -f /tmp/Update.py Update.py
+          #! Remove directory so they can move back
+          rm -rf assets
+          rm -rf lib
+          rm -rf .github
+          #! Move directory back
+          mv -f /tmp/assets assets
+          mv -f /tmp/lib lib
+          mv -f /tmp/.github .github
           #? Commit and push.
           git add .
           git diff
