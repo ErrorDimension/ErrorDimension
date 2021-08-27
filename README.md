@@ -1,6 +1,6 @@
 <div align = "center">
 
-## Greetings, mates, I am ErrorDIM - aka [10errordim](https://github.com/10errordim) 👋
+## Greetings, mates, I am ErrorDIM - aka [errordimension](https://github.com/errordimension) 👋
 
 <img src="https://img.shields.io/badge/3-STARS-8cecff?style=for-the-badge">
 
@@ -8,7 +8,7 @@
 
 <img src="https://img.shields.io/badge/1-FOLLOWERS-ff9eb6?style=for-the-badge">
 
-<img src="https://estruyf-github.azurewebsites.net/api/VisitorHit?user=10errordim&repo=10errordim&countColor=#0ffc03">
+<img src="https://estruyf-github.azurewebsites.net/api/VisitorHit?user=errordimension&repo=errordimension&countColor=#0ffc03">
 
 <hr>
 
@@ -32,7 +32,7 @@
 
 |#|Name|Stars|Size|Major Language|Last Update|Issues and Forks|
 |:-:|:---:|:---:|:---:|:---:|:---:|:--:|
-|1|**[10errordim](https://github.com/10errordim/10errordim)**|3 ⭐|187.59 MB|Python|2021-08-27T15:03:54Z|0 ⚠  \|  0 🍴|
+|1|**[errordimension](https://github.com/errordimension/errordimension)**|3 ⭐|187.59 MB|Python|2021-08-27T16:17:33Z|0 ⚠  \|  0 🍴|
 
 <hr>
 
@@ -70,8 +70,8 @@ Just kidding, that was just some <kbd>Ctrl</kbd> + <kbd>C</kbd> then <kbd>Ctrl</
 
 <span style="clear: both">
 
-  <span align="left">⏰ <b>UPDATED:</b> 27/08/2021 10:43:06 PM (GMT+7)</span>
+  <span align="left">⏰ <b>UPDATED:</b> 27/08/2021 11:17:55 PM (GMT+7)</span>
   <span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</span>
-  <span align="right">⚗ <b>GENERATED:</b> 0.2038s with <a href="https://github.com/10errordim/10errordim/actions" target="_blank">Github Actions</a></span>
+  <span align="right">⚗ <b>GENERATED:</b> 0.1761s with <a href="https://github.com/errordimension/errordimension/actions" target="_blank">Github Actions</a></span>
 
 </span>
