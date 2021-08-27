@@ -33,7 +33,7 @@ USER_DATA = None
 
 logStatus("Fetching User Data", 0)
 try:
-    USER_DATA = requests.get("https://api.github.com/users/10errordim").json()
+    USER_DATA = requests.get("https://api.github.com/users/errordimension").json()
 except json.JSONDecodeError:
     logStatus("Parse User Data Failed: Malformed JSON Data", -1, True)
 
@@ -46,7 +46,7 @@ REPOS_DATA = None
 logStatus("Fetching Repository Data", 0)
 try:
     REPOS_DATA = requests.get(
-        "https://api.github.com/users/10errordim/repos").json()
+        "https://api.github.com/users/errordimension/repos").json()
 except json.JSONDecodeError:
     logStatus("Parse Repos Data Failed: Malformed JSON Data", -1, True)
 

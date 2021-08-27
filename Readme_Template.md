@@ -1,6 +1,6 @@
 <div align = "center">
 
-## Greetings, mates, I am ErrorDIM - aka [10errordim](https://github.com/10errordim) 👋
+## Greetings, mates, I am ErrorDIM - aka [errordimension](https://github.com/errordimension) 👋
 
 <img src="https://img.shields.io/badge/${STARS}-STARS-8cecff?style=for-the-badge">
 
@@ -8,7 +8,7 @@
 
 <img src="https://img.shields.io/badge/${FOLLOWERS}-FOLLOWERS-ff9eb6?style=for-the-badge">
 
-<img src="https://estruyf-github.azurewebsites.net/api/VisitorHit?user=10errordim&repo=10errordim&countColor=#0ffc03">
+<img src="https://estruyf-github.azurewebsites.net/api/VisitorHit?user=errordimension&repo=errordimension&countColor=#0ffc03">
 
 <hr>
 
@@ -68,6 +68,6 @@ Just kidding, that was just some <kbd>Ctrl</kbd> + <kbd>C</kbd> then <kbd>Ctrl</
 
   <span align="left">⏰ <b>UPDATED:</b> ${TIME}</span>
   <span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</span>
-  <span align="right">⚗ <b>GENERATED:</b> ${RUNTIME}s with <a href="https://github.com/10errordim/10errordim/actions" target="_blank">Github Actions</a></span>
+  <span align="right">⚗ <b>GENERATED:</b> ${RUNTIME}s with <a href="https://github.com/errordimension/errordimension/actions" target="_blank">Github Actions</a></span>
 
 </span>
