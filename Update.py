@@ -37,7 +37,7 @@ try:
 except json.JSONDecodeError:
     logStatus("Parse User Data Failed: Malformed JSON Data", -1, True)
 
-logStatus("Fetching Repository Data", 1, True)
+logStatus("Fetching User Data", 1, True)
 
 TIME_START = perf_counter()
 
