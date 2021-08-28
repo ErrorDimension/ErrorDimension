@@ -2,6 +2,8 @@ name: 🏗 Portfolio Changes
 
 on:
   push:
+    branches:
+      - Master
   workflow_dispatch:
   schedule:
     - cron: "30,55 * * * *"
@@ -64,9 +66,9 @@ jobs:
           git add .
           git diff
           git config --global user.email "ioerrordim@gmail.com"
-          git config --global user.name "ErrorDIM Representative"
+          git config --global user.name "ErrorDimension"
           git commit -m "[Portfolio Build $GITHUB_RUN_NUMBER] 🔮 README.md: Update README" -m "Commit $GITHUB_SHA by $GITHUB_ACTOR" -m "Ref: $GITHUB_REF"
-          git push
+          git push origin Master
 
       - name: 🍏 This job's status is ${{ job.status }}.
         run: echo "🍏 This job's status is ${{ job.status }}."
