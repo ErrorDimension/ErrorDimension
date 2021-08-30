@@ -1,6 +1,6 @@
 <div align = "center">
 
-## Greetings, mates, I am ErrorDIM - aka [errordimension](https://github.com/errordimension) 👋
+## Greetings, mates, I am ErrorDIM - aka [ErrorDimension](https://github.com/errordimension) 👋
 
 ![Stars](https://img.shields.io/badge/${STARS}-STARS-8cecff?style=for-the-badge)
 [![Repositories](https://img.shields.io/badge/${REPOS}-REPOS-f2e174?style=for-the-badge)](https://github.com/errordimension?tab=repositories)
