@@ -33,7 +33,8 @@ USER_DATA = None
 
 logStatus("Fetching User Data", 0)
 try:
-    USER_DATA = requests.get("https://api.github.com/users/errordimension").json()
+    USER_DATA = requests.get(
+        "https://api.github.com/users/errordimension").json()
 except json.JSONDecodeError:
     logStatus("Parse User Data Failed: Malformed JSON Data", -1, True)
 
