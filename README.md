@@ -29,7 +29,7 @@
 
 |#|Name|Stars|Size|Major Language|Last Update|Issues and Forks|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|1|**[ErrorDimension](https://github.com/ErrorDimension/ErrorDimension)**|4 ⭐|193.01 MB|Python|2021-09-05T05:03:11Z|0 ⚠  \|  1 🍴|
+|1|**[ErrorDimension](https://github.com/ErrorDimension/ErrorDimension)**|4 ⭐|193.01 MB|Python|2021-09-05T05:36:49Z|0 ⚠  \|  1 🍴|
 
 <hr>
 
@@ -67,8 +67,8 @@ Just kidding, that was just some <kbd>Ctrl</kbd> + <kbd>C</kbd> then <kbd>Ctrl</
 
 <span style="clear: both">
 
-  <span align="left">⏰ <b>UPDATED:</b> 05/09/2021 12:36:33 PM (GMT+7)</span>
+  <span align="left">⏰ <b>UPDATED:</b> 05/09/2021 01:06:24 PM (GMT+7)</span>
   <span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</span>
-  <span align="right">⚗ <b>GENERATED:</b> 0.1716s with <a href="https://github.com/errordimension/errordimension/actions" target="_blank">Github Actions</a></span>
+  <span align="right">⚗ <b>GENERATED:</b> 0.1727s with <a href="https://github.com/errordimension/errordimension/actions" target="_blank">Github Actions</a></span>
 
 </span>
