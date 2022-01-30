@@ -69,8 +69,8 @@ Just kidding, that was just some <kbd>Ctrl</kbd> + <kbd>C</kbd> then <kbd>Ctrl</
 
 <span style="clear: both">
 
-  <span align="left">⏰ <b>UPDATED:</b> 30/01/2022 01:05:50 PM (GMT+7)</span>
+  <span align="left">⏰ <b>UPDATED:</b> 30/01/2022 01:43:10 PM (GMT+7)</span>
   <span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</span>
-  <span align="right">⚗ <b>GENERATED:</b> 0.2113s with <a href="https://github.com/errordimension/errordimension/actions" target="_blank">Github Actions</a></span>
+  <span align="right">⚗ <b>GENERATED:</b> 0.1505s with <a href="https://github.com/errordimension/errordimension/actions" target="_blank">Github Actions</a></span>
 
 </span>
