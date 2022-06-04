@@ -29,7 +29,7 @@
 
 |#|Name|Stars|Size|Major Language|Last Update|Issues and Forks|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|1|**[ErrorDimension](https://github.com/ErrorDimension/ErrorDimension)**|3 ⭐|196.72 MB|Python|2022-01-11T03:43:57Z|0 ⚠  \|  0 🍴|
+|1|**[ErrorDimension](https://github.com/ErrorDimension/ErrorDimension)**|3 ⭐|196.73 MB|Python|2022-01-11T03:43:57Z|0 ⚠  \|  0 🍴|
 |2|**[weblib](https://github.com/ErrorDimension/weblib)**|2 ⭐|26.91 MB|TypeScript|2022-05-22T09:52:51Z|0 ⚠  \|  0 🍴|
 |3|**[class-fan-page-f](https://github.com/ErrorDimension/class-fan-page-f)**|1 ⭐|1.32 MB|TypeScript|2022-05-28T16:31:06Z|0 ⚠  \|  0 🍴|
 
@@ -69,8 +69,8 @@ Just kidding, that was just some <kbd>Ctrl</kbd> + <kbd>C</kbd> then <kbd>Ctrl</
 
 <span style="clear: both">
 
-  <span align="left">⏰ <b>UPDATED:</b> 04/06/2022 07:57:07 PM (GMT+7)</span>
+  <span align="left">⏰ <b>UPDATED:</b> 04/06/2022 08:39:55 PM (GMT+7)</span>
   <span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</span>
-  <span align="right">⚗ <b>GENERATED:</b> 0.1549s with <a href="https://github.com/errordimension/errordimension/actions" target="_blank">Github Actions</a></span>
+  <span align="right">⚗ <b>GENERATED:</b> 0.3193s with <a href="https://github.com/errordimension/errordimension/actions" target="_blank">Github Actions</a></span>
 
 </span>
